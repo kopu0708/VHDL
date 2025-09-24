@@ -1,0 +1,25 @@
+# ===================================================================
+# Vivado 생성 파일 (절대 올리면 안 되는 것들)
+# ===================================================================
+/.Xil/
+/.cache/
+/.srcs/
+/project_1.hw/
+/project_1.ip_user_files/
+/project_1.runs/
+/project_1.sim/
+
+# 로그 및 저널 파일
+*.log
+*.jou
+
+# 임시 파일
+*_rules.tcl
+.ISE_repository/
+_xmsgs/
+xelab.pb
+xsim.dir/
+xsim.mem
+webtalk*.jou
+webtalk*.log
+webtalk*.tcl
